@@ -1,0 +1,320 @@
+{
+    "general": {
+        "name": "General libraries",
+        "childrenNames": [
+            "jquery",
+            "jquery-ui"
+        ],
+        "children": [
+            {
+                "path": "../source/jquery",
+                "name": "jquery",
+                "type": "folder",
+                "children": [
+                    {
+                        "path": "../source/jquery/jquery-1.11.1",
+                        "name": "jquery-1.11.1",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "path": "../source/jquery/jquery-1.11.1/jquery.js",
+                                "name": "jquery.js",
+                                "type": "file",
+                                "state": "Develop"
+                            },
+                            {
+                                "path": "../source/jquery/jquery-1.11.1/jquery.min.js",
+                                "name": "jquery.min.js",
+                                "type": "file",
+                                "state": "Minify"
+                            }
+                        ]
+                    },
+                    {
+                        "path": "../source/jquery/jquery-1.11.2",
+                        "name": "jquery-1.11.2",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "path": "../source/jquery/jquery-1.11.2/jquery.js",
+                                "name": "jquery.js",
+                                "type": "file",
+                                "state": "Develop"
+                            },
+                            {
+                                "path": "../source/jquery/jquery-1.11.2/jquery.min.js",
+                                "name": "jquery.min.js",
+                                "type": "file",
+                                "state": "Minify"
+                            }
+                        ]
+                    },
+                    {
+                        "path": "../source/jquery/jquery-1.11.3",
+                        "name": "jquery-1.11.3",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "path": "../source/jquery/jquery-1.11.3/jquery.js",
+                                "name": "jquery.js",
+                                "type": "file",
+                                "state": "Develop"
+                            },
+                            {
+                                "path": "../source/jquery/jquery-1.11.3/jquery.min.js",
+                                "name": "jquery.min.js",
+                                "type": "file",
+                                "state": "Minify"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "path": "../source/jquery-ui",
+                "name": "jquery-ui",
+                "type": "folder",
+                "children": [
+                    {
+                        "path": "../source/jquery-ui/jquery-ui-1.11.4",
+                        "name": "jquery-ui-1.11.4",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "path": "../source/jquery-ui/jquery-ui-1.11.4/external",
+                                "name": "external",
+                                "type": "folder",
+                                "children": [
+                                    {
+                                        "path": "../source/jquery-ui/jquery-ui-1.11.4/external/jquery",
+                                        "name": "jquery",
+                                        "type": "folder",
+                                        "children": [
+                                            {
+                                                "path": "../source/jquery-ui/jquery-ui-1.11.4/external/jquery/jquery.js",
+                                                "name": "jquery.js",
+                                                "type": "file",
+                                                "state": "Develop"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "path": "../source/jquery-ui/jquery-ui-1.11.4/images",
+                                "name": "images",
+                                "type": "folder",
+                                "children": [
+                                    {
+                                        "path": "../source/jquery-ui/jquery-ui-1.11.4/images/ui-bg_diagonals-thick_18_b81900_40x40.png",
+                                        "name": "ui-bg_diagonals-thick_18_b81900_40x40.png",
+                                        "type": "file",
+                                        "state": "Develop"
+                                    },
+                                    {
+                                        "path": "../source/jquery-ui/jquery-ui-1.11.4/images/ui-bg_diagonals-thick_20_666666_40x40.png",
+                                        "name": "ui-bg_diagonals-thick_20_666666_40x40.png",
+                                        "type": "file",
+                                        "state": "Develop"
+                                    },
+                                    {
+                                        "path": "../source/jquery-ui/jquery-ui-1.11.4/images/ui-bg_flat_10_000000_40x100.png",
+                                        "name": "ui-bg_flat_10_000000_40x100.png",
+                                        "type": "file",
+                                        "state": "Develop"
+                                    },
+                                    {
+                                        "path": "../source/jquery-ui/jquery-ui-1.11.4/images/ui-bg_glass_100_f6f6f6_1x400.png",
+                                        "name": "ui-bg_glass_100_f6f6f6_1x400.png",
+                                        "type": "file",
+                                        "state": "Develop"
+                                    },
+                                    {
+                                        "path": "../source/jquery-ui/jquery-ui-1.11.4/images/ui-bg_glass_100_fdf5ce_1x400.png",
+                                        "name": "ui-bg_glass_100_fdf5ce_1x400.png",
+                                        "type": "file",
+                                        "state": "Develop"
+                                    },
+                                    {
+                                        "path": "../source/jquery-ui/jquery-ui-1.11.4/images/ui-bg_glass_65_ffffff_1x400.png",
+                                        "name": "ui-bg_glass_65_ffffff_1x400.png",
+                                        "type": "file",
+                                        "state": "Develop"
+                                    },
+                                    {
+                                        "path": "../source/jquery-ui/jquery-ui-1.11.4/images/ui-bg_gloss-wave_35_f6a828_500x100.png",
+                                        "name": "ui-bg_gloss-wave_35_f6a828_500x100.png",
+                                        "type": "file",
+                                        "state": "Develop"
+                                    },
+                                    {
+                                        "path": "../source/jquery-ui/jquery-ui-1.11.4/images/ui-bg_highlight-soft_100_eeeeee_1x100.png",
+                                        "name": "ui-bg_highlight-soft_100_eeeeee_1x100.png",
+                                        "type": "file",
+                                        "state": "Develop"
+                                    },
+                                    {
+                                        "path": "../source/jquery-ui/jquery-ui-1.11.4/images/ui-bg_highlight-soft_75_ffe45c_1x100.png",
+                                        "name": "ui-bg_highlight-soft_75_ffe45c_1x100.png",
+                                        "type": "file",
+                                        "state": "Develop"
+                                    },
+                                    {
+                                        "path": "../source/jquery-ui/jquery-ui-1.11.4/images/ui-icons_222222_256x240.png",
+                                        "name": "ui-icons_222222_256x240.png",
+                                        "type": "file",
+                                        "state": "Develop"
+                                    },
+                                    {
+                                        "path": "../source/jquery-ui/jquery-ui-1.11.4/images/ui-icons_228ef1_256x240.png",
+                                        "name": "ui-icons_228ef1_256x240.png",
+                                        "type": "file",
+                                        "state": "Develop"
+                                    },
+                                    {
+                                        "path": "../source/jquery-ui/jquery-ui-1.11.4/images/ui-icons_ef8c08_256x240.png",
+                                        "name": "ui-icons_ef8c08_256x240.png",
+                                        "type": "file",
+                                        "state": "Develop"
+                                    },
+                                    {
+                                        "path": "../source/jquery-ui/jquery-ui-1.11.4/images/ui-icons_ffd27a_256x240.png",
+                                        "name": "ui-icons_ffd27a_256x240.png",
+                                        "type": "file",
+                                        "state": "Develop"
+                                    },
+                                    {
+                                        "path": "../source/jquery-ui/jquery-ui-1.11.4/images/ui-icons_ffffff_256x240.png",
+                                        "name": "ui-icons_ffffff_256x240.png",
+                                        "type": "file",
+                                        "state": "Develop"
+                                    }
+                                ]
+                            },
+                            {
+                                "path": "../source/jquery-ui/jquery-ui-1.11.4/index.html",
+                                "name": "index.html",
+                                "type": "file",
+                                "state": "Develop"
+                            },
+                            {
+                                "path": "../source/jquery-ui/jquery-ui-1.11.4/jquery-ui.css",
+                                "name": "jquery-ui.css",
+                                "type": "file",
+                                "state": "Develop"
+                            },
+                            {
+                                "path": "../source/jquery-ui/jquery-ui-1.11.4/jquery-ui.js",
+                                "name": "jquery-ui.js",
+                                "type": "file",
+                                "state": "Develop"
+                            },
+                            {
+                                "path": "../source/jquery-ui/jquery-ui-1.11.4/jquery-ui.min.css",
+                                "name": "jquery-ui.min.css",
+                                "type": "file",
+                                "state": "Minify"
+                            },
+                            {
+                                "path": "../source/jquery-ui/jquery-ui-1.11.4/jquery-ui.min.js",
+                                "name": "jquery-ui.min.js",
+                                "type": "file",
+                                "state": "Minify"
+                            },
+                            {
+                                "path": "../source/jquery-ui/jquery-ui-1.11.4/jquery-ui.structure.css",
+                                "name": "jquery-ui.structure.css",
+                                "type": "file",
+                                "state": "Develop"
+                            },
+                            {
+                                "path": "../source/jquery-ui/jquery-ui-1.11.4/jquery-ui.structure.min.css",
+                                "name": "jquery-ui.structure.min.css",
+                                "type": "file",
+                                "state": "Minify"
+                            },
+                            {
+                                "path": "../source/jquery-ui/jquery-ui-1.11.4/jquery-ui.theme.css",
+                                "name": "jquery-ui.theme.css",
+                                "type": "file",
+                                "state": "Develop"
+                            },
+                            {
+                                "path": "../source/jquery-ui/jquery-ui-1.11.4/jquery-ui.theme.min.css",
+                                "name": "jquery-ui.theme.min.css",
+                                "type": "file",
+                                "state": "Minify"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "frameworks": {
+        "name": "Frameworks libraries",
+        "childrenNames": [
+            "angular",
+            "backbone"
+        ],
+        "children": [
+            {
+                "path": "../source/angular",
+                "name": "angular",
+                "type": "folder",
+                "children": [
+                    {
+                        "path": "../source/angular/angular-1.4.1",
+                        "name": "angular-1.4.1",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "path": "../source/angular/angular-1.4.1/angular.js",
+                                "name": "angular.js",
+                                "type": "file",
+                                "state": "Develop"
+                            },
+                            {
+                                "path": "../source/angular/angular-1.4.1/angular.min.js",
+                                "name": "angular.min.js",
+                                "type": "file",
+                                "state": "Minify"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "path": "../source/backbone",
+                "name": "backbone",
+                "type": "folder",
+                "children": [
+                    {
+                        "path": "../source/backbone/backbone-1.2.1",
+                        "name": "backbone-1.2.1",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "path": "../source/backbone/backbone-1.2.1/backbone.js",
+                                "name": "backbone.js",
+                                "type": "file",
+                                "state": "Develop"
+                            },
+                            {
+                                "path": "../source/backbone/backbone-1.2.1/backbone.min.js",
+                                "name": "backbone.min.js",
+                                "type": "file",
+                                "state": "Minify"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "amd": {
+        "name": "AMD",
+        "childrenNames": [],
+        "children": []
+    }
+}

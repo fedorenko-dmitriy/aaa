@@ -1,0 +1,46 @@
+
+{{#each item}}
+<div class="{{this.name}}-block block col-md-12">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>{{this.name}}</h3>
+        </div>
+    </div>
+
+    <div class="version">
+        <div class="form-group">
+            <label class="col-md-1">Version</label>
+            <div class="col-md-11">
+                <select class="form-control">
+                    {{#each_reverse this.children}}
+                    <option value="{{this.name}}">{{this.name}}{{#if-key-last}} - latest version{{/if-key-last}}</option>
+                    {{/each_reverse}}
+                </select>
+            </div>
+
+        </div>
+    </div>
+
+    {{#each_reverse this.children}}
+    <div class="folder {{this.name}} {{#if-key-last}}active{{/if-key-last}} ">
+        {{#each_reverse this.children}}
+        {{#if-value this.type value="file"}}
+        <div class="form-group">
+            <label class="col-md-1">{{this.state}}</label>
+            <div class="input col-md-7">
+                <input class="form-control" value="&#60;script src='{{url this.path}}'&#62;&#60;/script&#62;">
+                <!--<input class="form-control" value="{{@key}}">-->
+            </div>
+            <div class="col-md-2"><button id="{{../../name}}-{{this.state}}-copy" class="btn copy init-btn">Copy</button></div>
+            <div class="col-md-2"><button id="{{../../name}}-{{this.state}}-select" class="btn select init-btn">Select</button></div>
+        </div>
+
+        {{/if-value}}
+        {{/each_reverse}}
+    </div>
+
+    {{/each_reverse}}
+</div>
+
+{{/each}}
+

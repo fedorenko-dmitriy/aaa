@@ -1,0 +1,23 @@
+{
+  "general": {
+    "name": "General libraries",
+    "childrenNames": [
+      "jquery",
+      "jquery-ui"
+    ],
+    "children": []
+  },
+  "frameworks": {
+    "name": "Frameworks libraries",
+    "childrenNames": [
+      "angular",
+      "backbone"
+    ],
+    "children": []
+  },
+  "amd": {
+    "name": "AMD",
+    "childrenNames": [],
+    "children": []
+  }
+}

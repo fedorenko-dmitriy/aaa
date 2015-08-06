@@ -1,0 +1,148 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.folder{
+    display: none;
+}
+.folder.active{
+    display: block;
+}
+
+.version>div,
+.folder>div{
+    padding-bottom: 33px;
+}
+
+.folder>div>div:nth-of-type(1),
+.folder>div>div:nth-of-type(2){
+    padding-right: 0;
+}
+
+.folder>div>div.input{
+    padding-right: 15px;
+}
+
+input.form-control, select.form-control{
+    /*border: 1px solid;*/
+    /*border-radius: 5px;*/
+    /*color: grey;*/
+    font-size: 13px;
+    /*height: 24px;*/
+    /*margin-bottom: 10px;*/
+    /*padding: 3px 10px;*/
+    /*width: 600px;*/
+}
+
+label {
+    display: inline-block;
+    width: 60px;
+    font-size: 16px;
+    position: relative;
+    top: 6px;
+}
+
+button.btn{
+    width: 100%;
+    /*width: 120px;*/
+    /*height: 32px;*/
+    /*border-radius: 5px;*/
+    border: 1px solid #cccccc;
+    background-color: #fff;
+    /*font-size: 16px;*/
+    /*position: relative;*/
+    /*top: 0;*/
+    /*outline: none;*/
+    /*cursor: pointer;*/
+
+}
+
+/*button.hover,*/
+/*button:hover{*/
+    /*background-color: wheat;*/
+
+/*}*/
+
+/*button.select.addedToClipBoard{*/
+    /*background-color: pink;*/
+/*}*/
+
+.popup{
+    position: fixed;
+    right: 0;
+    bottom: -100px;
+    min-height: 100px;
+    width: 250px;
+    border: 1px solid lightgrey;
+    border-bottom: none;
+    border-radius: 6px 6px 0 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.popup .header{
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777;
+}
+
+.popup .header .close{
+    float: right;
+    cursor: pointer;
+    font-weight: 400;
+    position: relative;
+    font-size: 15px;
+}
+
+.popup .body{
+    min-height: 70px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    color: #555;
+    font-size: 12px;
+}
+
+
+/*///////////////MENUE//////////////////*/
+.bs-docs-sidebar{
+    background-color: #fff;
+}
+
+.bs-docs-sidebar .nav .nav {
+    display: none;
+    padding-bottom: 10px;
+}
+
+.bs-docs-sidebar .nav .nav>li>a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bs-docs-sidebar .nav .nav>.active>a,
+.bs-docs-sidebar .nav .nav>.active:hover>a,
+.bs-docs-sidebar .nav .nav>.active:focus>a {
+    font-weight: 500;
+    padding-left: 28px;
+}
+
+
+@media (min-width: 1200px){
+    .bs-docs-sidebar.affix-top,
+    .bs-docs-sidebar.affix{
+        width: 180px;
+    }
+}
+
+@media (min-width: 992px){
+    .bs-docs-sidebar.affix {
+        position: fixed;
+        top: 20px;
+    }
+
+    .bs-docs-sidebar .nav>.active>ul {
+         display: block;
+     }
+}
