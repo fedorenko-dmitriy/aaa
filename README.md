@@ -1,4 +1,4 @@
-[In English](http://), [Українською](http://), [По-русски](http://)
+[In English](https://github.com/fedorenko-dmitriy/localCDN/#in-english), [Українською](https://github.com/fedorenko-dmitriy/localCDN/#Українською), [По-русски](https://github.com/fedorenko-dmitriy/localCDN/#По-русски)
 
 # localCDN
 #### In English
