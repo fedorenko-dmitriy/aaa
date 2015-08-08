@@ -1,10 +1,21 @@
-[In English](https://github.com/fedorenko-dmitriy/localCDN/#in-english), [Українською](https://github.com/fedorenko-dmitriy/localCDN/#Українською), [По-русски](https://github.com/fedorenko-dmitriy/localCDN/#По-русски)
+[In English](https://github.com/fedorenko-dmitriy/localCDN/#in-english), [Українською](https://github.com/fedorenko-dmitriy/localCDN/#Українською), [По-русски](https://github.com/fedorenko-dmitriy/localCDN/#_ru)
 
 # localCDN
-#### In English
-#### Українською
-#### По-русски
 
+##_en
+## Requirements
+## Install
+## Demo
+## Questions and suggestions
+
+
+##_ua
+## Вимоги
+## Інсталяція
+## Приклад
+## Питання та пропозиції
+
+##_ru
 Это веб приложение предназначено для каталогизирования Javascript библиотек, которые хранятся на веб сервере.
 Данное приложение будет полезно программистам, которые имеют большое количество мелких проектов с разными библиотеками,
 для компьютерных классов школ и институтов, где изучают веб програмирование.
@@ -20,7 +31,7 @@ js скриптов в окружени NodeJS
 3. Сформируйте data.json файл.
 4. Пользуйтесь
 
-## Демо
+## Пример
 Демо версия находится вот [ЗДЕСЬ](http://fedorenko-dmitriy.github.io/localCDN/), на [pages.github.com](https://pages.github.com/)
 
 ## Книга вопросов и предложений находится вот по этому адресу
